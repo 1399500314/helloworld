@@ -1,5 +1,8 @@
 package ShapeFactory;
 
+import AbstractFactory.AbstractFactory;
+import AbstractFactory.Color;
+
 public class ShapeFactory {
 
 	public Shape getShape(String shapeType) {
@@ -15,4 +18,6 @@ public class ShapeFactory {
 		}
 		return null;
 	}
+
+	
 }
